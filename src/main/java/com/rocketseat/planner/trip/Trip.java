@@ -53,4 +53,35 @@ public class Trip {
     public UUID getId() {
         return id;
     }
+    public void setEndsAt(LocalDateTime endsAt) {
+        this.endsAt = endsAt;
+    }
+
+    public LocalDateTime getEndsAt() {
+        return endsAt;
+    }
+
+    public void setStartsAt(LocalDateTime startsAt) {
+        this.startsAt = startsAt;
+    }
+
+    public LocalDateTime getStartsAt() {
+        return startsAt;
+    }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public Boolean getIsConfirmed() {
+        return isConfirmed;
+    }
+
+    public void setIsConfirmed(Boolean confirmed) {
+        this.isConfirmed = confirmed;
+    }
 }
